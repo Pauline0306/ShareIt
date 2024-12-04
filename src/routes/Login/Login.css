@@ -1,0 +1,106 @@
+body {
+    margin: 20px;
+    background: linear-gradient(180deg, #ffcccc 0%, #ff69b4 100%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  h3 {
+    color: #e91e63; /* Pink color for Login */
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+  }
+  
+  h5 {
+    color: black;
+    font-size: 2rem; /* Enlarge Welcome Back */
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  p {
+    color: black;
+    letter-spacing: 1px; /* Stretch paragraph text */
+    text-align: center;
+    font-size: 0.5rem;
+    margin-top: 10px;
+  }
+  
+  .p-5 {
+    backdrop-filter: blur(15px); /* Glass blur effect */
+    background: rgba(255, 255, 255, 0.2); /* Light transparent background */
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    border-radius: 15px;
+    padding: 30px;
+    margin: auto;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  .btn {
+    background-color: #e91e63;
+    color: white;
+    width: 100%;
+    margin-top: 15px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: #ff4081;
+  }
+  
+  #login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 2px solid #e91e63;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.5); /* Semi-transparent input */
+    color: black;
+  }
+  
+  input::placeholder {
+    color: black;
+  }
+  
+  label {
+    display: block; /* Align label to the left */
+    text-align: left;
+    margin-top: 30px;
+    color: black;
+  }
+  
+  #register-route {
+    color: #e91e63;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  #register-route:hover {
+    text-decoration: underline;
+  }
+  
+  p.text-muted {
+    margin-top: 15px;
+  }
+  
+  
